@@ -45,9 +45,9 @@ or with newer **cmake** (>3.13)
 
 - **Mandelbrot** and **Mandelbrot GL** draw the famous fractal using a system buffer and an OpenGL context respectively.
 
-<img style="padding: 10px" src="docs/images/x11_rtiow.png" width="300"/> <img style="padding: 10px" src="docs/images/cocoa_rtiow_crop.png" width="300"/>
+<img style="padding: 10px" src="docs/images/x11_mandelbrot.png" width="300"/> <img style="padding: 10px" src="docs/images/cocoa_mandelbrot.png" width="300"/>
 
-<img style="padding: 10px" src="docs/images/win32_rtiow.png" width="306"/> <img style="padding: 10px" src="docs/images/x11_pi_rtiow.png" width="300"/>
+<img style="padding: 10px" src="docs/images/win32_mandelbrot.png" width="306"/> <img style="padding: 10px" src="docs/images/x11_pi_mandelbrot.png" width="300"/>
  
 - **Text** uses another single header library(stb_truetype) to create a very basic text editor. The main focus is on showcasing how character encoding and keyboard events are handled with Wuhoo.
 

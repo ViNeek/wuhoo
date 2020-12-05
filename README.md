@@ -53,7 +53,7 @@ or with newer **cmake** (>3.13)
  
 - **Text** uses another single header library(stb_truetype) to create a very basic text editor. The main focus is on showcasing how character encoding and keyboard events are handled with Wuhoo.
 
-- **Image Viewer** uses stb_image and stb_image_resize to create a basic image previewer. The main focus is on presenting the Drag n Drop event handling. Simply darg an image on the window to present it.
+- **Image Viewer** uses stb_image and stb_image_resize to create a basic image previewer. The main focus is on presenting the Drag n Drop event handling. Simply drag an image on the window to present it.
 
 - **RTIOW** is a C++ project that implements a multi-threaded version of the amazing Ray Tracing in One Weekend book. Expect something like this:
 

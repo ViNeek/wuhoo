@@ -14,6 +14,8 @@ include_directories(../../ ./)
 project (MandelbrotGL)
 add_executable(${PROJECT_NAME}
   mandelbrot.c
+  mandelbrot.vs.glsl
+  mandelbrot.fs.glsl
 )
 
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
@@ -49,4 +51,5 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
   MACOSX_BUNDLE TRUE
   MACOSX_FRAMEWORK_IDENTIFIER ${PROJECT_NAME}
   RESOURCE "${RESOURCE_FILES}"
-)
+)
+

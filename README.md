@@ -31,9 +31,11 @@ When using the Cocoa backend on Mac OS X the user has to link with the following
 
 ## Examples
 
-To quickly get up and running with Wuhoo, check out the provided examples.
+To quickly get up and running with Wuhoo, check out the provided examples. Clone this repository with:
 
-For convenience, a **cmake** build script is provided. Simply change directory to `wuhoo/examples` and execute
+`git clone https://github.com/ViNeek/wuhoo.git`
+
+A **cmake** build script is provided. Simply change directory to `wuhoo/examples` and execute
 
 `cmake -D"CMAKE_BUILD_TYPE=Release" -H. -Bbuild`
 

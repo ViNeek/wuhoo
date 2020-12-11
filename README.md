@@ -6,6 +6,8 @@ Wuhoo aims to make it easy to setup a system-backed drawing canvas on the three 
 
 Wuhoo is a single header library. In a single implemetation file, you `#define WUHOO_IMPLEMENTATION` and `#include wuhoo.h`.
 
+Documentation can be found [here](https://vineek.github.io/wuhoo/index.html)
+
 ## Windows (Win32 API)
 
 Windows API functions that manipulate characters generally provide two versions,
